@@ -58,12 +58,15 @@ TRANSACTION  ( Transaction_id, Amount, Type, Date_time,
 
 Setup and Run
 Requirements: JDK 17 or above, MySQL running locally
+
 Step 1 — Set up the database
 sql-- Run schema.sql in MySQL Workbench or terminal
 source schema.sql;
 This creates the banking_db database with all tables and inserts default admin credentials.
+
 Step 2 — Update DB credentials
 Open src/util/DBConnection.java and update the username and password to match your MySQL setup.
+
 Step 3 — Run
 On Windows:
 run.bat
