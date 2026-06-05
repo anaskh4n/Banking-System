@@ -21,7 +21,3 @@ public class BankingSystem {
     }
 }
 
-// ── HOW TO RUN ────────────────────────────────────────────────────────────────
-// cd "C:\Users\Asif\Desktop\Parhai\NUST\sem2\Database LAB\BankingSystem-main\src"
-// javac -cp ".;C:\jdbc\mysql-connector-j-9.7.0.jar" -d . *.java dao\*.java model\*.java service\*.java util\*.java view\*.java
-// java  -cp ".;C:\jdbc\mysql-connector-j-9.7.0.jar" BankingSystem
